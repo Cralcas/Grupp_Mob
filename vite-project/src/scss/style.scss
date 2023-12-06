@@ -104,7 +104,12 @@ button:focus-visible {
   width: 20%;
   background-color: rgba(200, 200, 200, 0.432);
   border-radius: 20px;
+
+  &:hover{
+    background-color: lime;
+  }
 }
+
 
 h3, p {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

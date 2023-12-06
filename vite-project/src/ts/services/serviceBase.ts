@@ -14,12 +14,8 @@ response.data.results.forEach((character) => {
     const details = document.createElement("p");
     personCard.className = 'personCard'
     header.innerHTML = character.name;
-    details.innerHTML = character.gender + " " + character.mass;
-    character.name
-    character.gender
-    character.mass
-    character.skin_color
-    character.birth_year
+    details.innerHTML = character.gender + " " + character.mass + " " + character.skin_color + " " + character.birth_year ;
+   
 container.appendChild(personCard);
 personCard.appendChild(header)
 personCard.appendChild(details);
